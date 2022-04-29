@@ -1,5 +1,7 @@
 **Introduction**
 
+This project aims to create a simple web application that returns information about top trending movies that are associated with languges. Some modules are adopted to allow this application to access data efficiently web API and manipulate the data using SQLite into information. Then, Flask, Pygal and Plotly are used for data visualization on this website.
+
 **Data Sources**
 1. The Movie DB, which is the data source for the table "Top Movies" in the database
 https://developers.themoviedb.org/3/movies/get-top-rated-movies
@@ -14,7 +16,7 @@ https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 5. Fill the table named Original Language of Movie with data that are retrieved from scraping the Movie DB website.
 
 **Data Presentation**
-This app is represented on a website by using Flask, pygal and Plotly to show the data.
+This app is represented on a website by using Flask, Pygal and Plotly to show the data.
 Once the Flask application is running, the user should navigate to "http://127.0.0.1:5000/" in a web browser (or whatever port Flask is hosting the site on, if port 5000 is already in use on your system).
 - Use http://127.0.0.1:5000/ratings to see charts
 
